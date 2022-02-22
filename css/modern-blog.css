@@ -380,15 +380,16 @@ a:focus {
 
 .tooltip .tooltiptext {
 	visibility: hidden;
-	width: 120px;
-	background-color: black;
+	width: 50px;
+	font-size: 0.2em;
+	background-color: rgb(100, 100, 100);
 	color: #fff;
 	text-align: center;
 	border-radius: 6px;
 	padding: 5px 0;
 	position: absolute;
 	z-index: 1;
-	bottom: 100%;
+	top: 100%;
 	left: 50%;
 	margin-left: -60px;
 
