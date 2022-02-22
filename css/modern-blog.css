@@ -380,7 +380,7 @@ a:focus {
 .tooltip .tooltiptext {
 	visibility: hidden;
 	width: 50px;
-	background-color: rgb(90, 90, 90);
+	background-color: rgb(136, 255, 0);
 	color: #fff;
 	text-align: center;
 	border-radius: 6px;
