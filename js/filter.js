@@ -47,7 +47,7 @@ function category(e) {
     } else if (e.target.className == 'fa fa-truck fa-3x') {
         for (let row of array) {
             let array_key = row.textContent
-            if (array_key.toUpperCase().indexof(testValue2) > -1) {
+            if (array_key.toUpperCase().indexOf(testValue2) > -1) {
                 row.parentNode.parentNode.parentNode.parentNode.style = ''
             } else {
                 row.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
