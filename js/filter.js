@@ -26,7 +26,7 @@ function category(e) {
     const testValue2 = '하프갤런'
     const array = document.getElementsByClassName('card__title');
 
-    if (e.target.className == 'fa fa-twitter-square fa-3x') {
+    if (e.target.className == 'fa fa-database fa-3x') {
         for (let row of array) {
             let array_key = row.textContent
             if (array_key.toUpperCase().indexOf(dataValue) > -1) {
@@ -35,10 +35,19 @@ function category(e) {
                 row.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
             }
         }
-    } else if (e.target.className == 'fa fa-instagram fa-3x') {
+    } else if (e.target.className == 'fa fa-plane fa-3x') {
         for (let row of array) {
             let array_key = row.textContent
             if (array_key.toUpperCase().indexOf(testValue) > -1) {
+                row.parentNode.parentNode.parentNode.parentNode.style = ''
+            } else {
+                row.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+            }
+        }
+    } else if (e.target.className == 'fa fa-truck fa-3x') {
+        for (let row of array) {
+            let array_key = row.textContent
+            if (array_key.toUpperCase().indexof(testValue2) > -1) {
                 row.parentNode.parentNode.parentNode.parentNode.style = ''
             } else {
                 row.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
