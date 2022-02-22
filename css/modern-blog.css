@@ -397,5 +397,5 @@ a:focus {
 
 .tooltip:hover .tooltiptext {
 	visibility: visible;
-	opacity: 0;
+	opacity: 1;
 }
