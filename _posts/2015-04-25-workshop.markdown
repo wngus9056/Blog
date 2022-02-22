@@ -1,0 +1,11 @@
+---
+title:  "팅 통 통 틩 통"
+subtitle: "주르르륵"
+author: "Sirom"
+avatar: "img/authors/Ho.jpg"
+image: "img/f.jpg"
+date:   2015-04-20 05:12:12
+---
+
+### 다라라란~
+![](https://c.tenor.com/LiqoxQ9gSR4AAAAC/pixx-pixar.gif)

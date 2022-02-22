@@ -1,0 +1,7 @@
+# Site settings
+title: Sirom's Blog
+description: Development savings
+keywords: Sirom, Blogging, Fun, Development
+author: Sirom
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
