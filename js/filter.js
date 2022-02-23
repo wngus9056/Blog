@@ -62,10 +62,10 @@ function swap(e) {
     let value = e.target.value;
     console.log(value);
     if (value === 'Mini Project') {
-        target.style.display = 'none';
+        e.target.style.display = 'none';
         value = 'Filter';
     } else {
-        target.style.display = 'block';
+        e.target.style.display = 'block';
         value = 'Mini Project';
     }
 }
