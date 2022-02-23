@@ -59,11 +59,13 @@ function category(e) {
 
 
 function swap(e) {
-    let value = e.target.value;
+    let value = e.target.innerHTML;
     console.log(value);
     if (value === 'Mini Project') {
+        e.target.style.display = 'none';
         e.target.value = 'Filter';
     } else {
+        e.target.style.display = 'block';
         e.target.value = 'Mini Project';
     }
 }
