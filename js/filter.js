@@ -3,7 +3,7 @@ start();
 function start() {
     document.getElementById('searchText').addEventListener('keyup', search);
     document.querySelector('nav').addEventListener('click', category);
-    document.getElementById('swap').addEventListener('click', swap);
+    document.getElementsByClassName('swap').addEventListener('click', swap);
 }
 
 function search() {
