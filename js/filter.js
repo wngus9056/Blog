@@ -3,6 +3,7 @@ start();
 function start() {
     document.getElementById('searchText').addEventListener('keyup', search);
     document.querySelector('nav').addEventListener('click', category);
+    document.getElementById('swap').addEventListener('click', swap);
 }
 
 function search() {
@@ -21,9 +22,9 @@ function search() {
 }
 
 function category(e) {
-    const dataValue = 'DATA'
-    const testValue = '비행기'
-    const testValue2 = '하프갤런'
+    const dataValue = 'DATA';
+    const testValue = '비행기';
+    const testValue2 = '하프갤런';
     const array = document.getElementsByClassName('card__title');
 
     if (e.target.className == 'fa fa-database fa-3x tooltip') {
@@ -53,5 +54,16 @@ function category(e) {
                 row.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
             }
         }
+    }
+}
+
+
+function swap(e) {
+    if (this.value === 'Mini Project') {
+        target.style.display = 'none';
+        this.value = 'Filter';
+    } else {
+        target.style.display = 'block';
+        this.value = 'Mini Project';
     }
 }
