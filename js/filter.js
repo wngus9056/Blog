@@ -59,7 +59,7 @@ function category(e) {
 
 
 function swap(e) {
-    let value = e.target.value;
+    let value = e.target.value.innerHTML;
     console.log(value);
     if (value === 'Mini Project') {
         value = 'Filter';
