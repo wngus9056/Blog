@@ -60,7 +60,7 @@ function category(e) {
 
 function swap(e) {
     let value = e.target.innerHTML;
-    console.log(e.target.childNodes.value);
+    console.log(e.target.childNodes.innerText);
     if (value === 'Mini Project') {
         e.target.childNodes.innerText = 'Filter';
     } else {
