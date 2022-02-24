@@ -65,8 +65,8 @@ function swap(e) {
     console.log(e.target.children);
     console.log(e.target.children.textContent);
     if (value === 'Mini Project') {
-        e.target.innerText = 'Filter';
+        e.target.innerHTML = '<span class="tooltiptext">Filter</span>';
     } else {
-        e.target.innerText = 'Mini Project';
+        e.target.innerHTML = '<span class="tooltiptext">Mini Project</span>';
     }
 }
