@@ -62,8 +62,8 @@ function swap(e) {
     let value = e.target.innerHTML;
     console.log(e.target.childNodes.value);
     if (value === 'Mini Project') {
-        e.target.childNodes.innerHTML = 'Filter';
+        e.target.childNodes.innerText = 'Filter';
     } else {
-        e.target.childNodes.innerHTML = 'Mini Project';
+        e.target.childNodes.innerText = 'Mini Project';
     }
 }
