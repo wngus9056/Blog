@@ -60,13 +60,10 @@ function category(e) {
 
 function swap(e) {
     let value = e.target.innerHTML;
-    console.log(e.target);
-    console.log(e.target.childNodes);
-    console.log(e.target.children);
-    console.log(e.target.children.textContent);
+    console.log(e.target.children.innerHTML);
     if (value === 'Mini Project') {
-        e.target.innerHTML = '<span class="tooltiptext">Filter</span>';
+        e.target.children.innerHTML = 'Filter';
     } else {
-        e.target.innerHTML = '<span class="tooltiptext">Mini Project</span>';
+        e.target.children.innerHTML = 'Mini Project';
     }
 }
