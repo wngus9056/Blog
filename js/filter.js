@@ -10,9 +10,10 @@ function search() {
     const value = document.getElementById('searchText').value.toUpperCase();
     const array = document.getElementsByClassName('card__title');
     
-    console.log(document.getElementsByClassName('card__caption'));
-    console.log('--------------------------------------------');
-    console.log(document.getElementsByClassName('card__caption').childNodes);
+    const test_value = document.getElementsByClassName('card__caption');
+    for (let test_row of test_value) {
+        console.log(test_row);
+    }
 
     for (let row of array) {
         let array_key = row.textContent
