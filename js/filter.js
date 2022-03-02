@@ -13,6 +13,7 @@ function search() {
     const test_value = document.getElementsByClassName('card__caption');
     for (let test_row of test_value) {
         console.log(test_row);
+        console.log(test_row.textContent);
     }
     console.log('----------------------------------');
     
