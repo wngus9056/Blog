@@ -12,7 +12,6 @@ function search() {
     
     for (let row of array) {
         let array_key = row.textContent
-        console.log(row.parentNode.parentNode.parentNode);
         
         if (array_key.toUpperCase().indexOf(value) > -1) {
             row.parentNode.parentNode.parentNode.style = ''
