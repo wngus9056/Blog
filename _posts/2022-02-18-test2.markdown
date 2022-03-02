@@ -2,7 +2,7 @@
 title:  "[DataBase] Usecase Diagram"
 subtitle: "유스케이스란?"
 author: "Sirom"
-avatar: "img/authors/Ho.jpg"
+avatar: "img/authors/UseCase.jpg"
 image: "img/a.jpg"
 date:   2022-02-14 12:12:12
 ---
