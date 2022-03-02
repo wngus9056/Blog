@@ -12,7 +12,7 @@ function search() {
     
     console.log(document.getElementsByClassName('card__caption'));
     console.log('--------------------------------------------');
-    console.log(document.getElementsByClassName('card__caption').childNodes[0]);
+    console.log(document.getElementsByClassName('card__caption').childNodes);
 
     for (let row of array) {
         let array_key = row.textContent
