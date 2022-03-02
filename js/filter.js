@@ -9,6 +9,10 @@ function start() {
 function search() {
     const value = document.getElementById('searchText').value.toUpperCase();
     const array = document.getElementsByClassName('card__title');
+    
+    console.log(document.getElementsByClassName('card__caption'));
+    console.log('--------------------------------------------');
+    console.log(document.getElementsByClassName('card__caption').childNodes[0]);
 
     for (let row of array) {
         let array_key = row.textContent
