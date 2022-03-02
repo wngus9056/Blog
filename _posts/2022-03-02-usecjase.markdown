@@ -1,9 +1,0 @@
----
-title:  "[DataBase] Index"
-subtitle: "클러스터와 넌클러스터"
-author: "Sirom"
-avatar: "img/authors/Ho.jpg"
-image: "img/Database.jpg"
-date: 2022-02-14 04:12:12 -0800
----
-***
