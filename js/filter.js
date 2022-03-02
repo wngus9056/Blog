@@ -12,13 +12,12 @@ function search() {
     
     for (let row of array) {
         let array_key = row.textContent
-        console.log(array_key);
-        console.log(value);
+        console.log(row.parentNode.parentNode.parentNode);
         
         if (array_key.toUpperCase().indexOf(value) > -1) {
-            row.parentNode.parentNode.parentNode.parentNode.style = ''
+            row.parentNode.parentNode.parentNode.style = ''
         } else {
-            row.parentNode.parentNode.parentNode.parentNode.style.display = 'none';
+            row.parentNode.parentNode.parentNode.style.display = 'none';
         }
     }
 }
