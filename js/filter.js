@@ -8,20 +8,11 @@ function start() {
 
 function search() {
     const value = document.getElementById('searchText').value.toUpperCase();
-    const array = document.getElementsByClassName('card__title');
-    
-    const test_value = document.getElementsByClassName('card__caption');
-    for (let test_row of test_value) {
-        console.log(test_row);
-        console.log(test_row.textContent);
-    }
-    console.log('----------------------------------');
-    
+    const array = document.getElementsByClassName('card__caption');
     
     for (let row of array) {
-        console.log(row)
         let array_key = row.textContent
-        let test_key = row.parentNode.parentNode.parentNode.parentNode
+        
         if (array_key.toUpperCase().indexOf(value) > -1) {
             row.parentNode.parentNode.parentNode.parentNode.style = ''
         } else {
