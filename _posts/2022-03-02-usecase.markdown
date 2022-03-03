@@ -25,4 +25,20 @@ date:   2022-02-14 04:12:12
 </p>
 <br>
 <br>
-
+<b class="topic">유스케이스 다이어그램의 구성요소</b>
+<p class="subcontent">
+  Scope<br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbKUzV2%2FbtqD7GQ9hFz%2FjsaYUjCUeA8zWF7HVqHulK%2Fimg.png" width="600" height="300"><br>
+  - 시스템이 제공하는 기능의 범위를 나타날 떄 쓰인다.
+</p>
+<br>
+<p class="subcontent">
+  Usecase<br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fnn1ji%2FbtqD8iWBj8B%2Fmh8iz4ryxEoxfWW0key4w0%2Fimg.png" width="600" height="300"><br>
+  - 시스템의 서비스와 기능을 나타내고 사용자의 요구사항을 구조화 한 것이다.
+</p>
+<br>
+<p class="subcontent">
+  Actor<br>
+  
+</p>
