@@ -28,19 +28,19 @@ date:   2022-02-14 04:12:12
 <b class="topic">유스케이스 다이어그램의 구성요소</b>
 <p class="content">
   [1] Scope<br>
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbKUzV2%2FbtqD7GQ9hFz%2FjsaYUjCUeA8zWF7HVqHulK%2Fimg.png" width="370" height="400"><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbKUzV2%2FbtqD7GQ9hFz%2FjsaYUjCUeA8zWF7HVqHulK%2Fimg.png" width="400" height="400"><br>
   - 시스템이 제공하는 <b>기능의 범위</b>를 나타날 때 쓰인다.
 </p>
 <br>
 <p class="content">
   [2] Usecase<br>
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fnn1ji%2FbtqD8iWBj8B%2Fmh8iz4ryxEoxfWW0key4w0%2Fimg.png" width="370" height="400"><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fnn1ji%2FbtqD8iWBj8B%2Fmh8iz4ryxEoxfWW0key4w0%2Fimg.png" width="400" height="400"><br>
   - 시스템의 <b>서비스</b>와 <b>기능</b>을 나타내고 <b>사용자의 요구사항</b>을 <b>구조화</b> 한 것이다.
 </p>
 <br>
 <p class="content">
   [3] Actor<br>
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdNjqd1%2FbtqD8N29nY1%2FQBJAaLyu3fLbyWPEi9OQWk%2Fimg.png" width="370" height="400"><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdNjqd1%2FbtqD8N29nY1%2FQBJAaLyu3fLbyWPEi9OQWk%2Fimg.png" width="400" height="400"><br>
   - <b>Actor</b>는 <b>시스템 외부</b>에서 시스템과 상호작용 하는 존재이다.<br>
   - 사람 뿐만 아니라 <b>외부 시스템도</b> Actor로 표현할 수 있다.<br>
   - Actor끼리는 서로 상속되고 일반화될 수 있다.<br>
@@ -54,7 +54,7 @@ date:   2022-02-14 04:12:12
 <br>
 <p class="content">
   [4] Relationship<br>
-  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FH8d2u%2FbtqD9uaZF7p%2FvUJuoF6G4piVLbEzTlEEd1%2Fimg.png" width="370" height="400"><br>
+  <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FH8d2u%2FbtqD9uaZF7p%2FvUJuoF6G4piVLbEzTlEEd1%2Fimg.png" width="400" height="400"><br>
   - 관계는 Actor와 Usecase, Usecase와 Usecase 사이에 나타나고 총 4가지 종류가 있다.<br>
   <br>
   association<br>
